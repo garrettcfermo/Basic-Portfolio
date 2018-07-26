@@ -77,7 +77,7 @@ footer p {
 .contact,
 .portfolio
 {
-  width: auto;
+  width: 960px;
   margin:  30px 200px;
   background-color: #777;
   border: 1px whitesmoke  solid;
@@ -133,7 +133,8 @@ input {
   margin: 0px 0 25px 0;;
   width: 100%;  
   background-color: rgb(229, 229, 229);
-  height: 20px;
+  height: 22px;
+  font-size: 14px;
 }
 
 textarea {
@@ -158,4 +159,21 @@ textarea {
 }
 
 /* Portfolio Page Styles */
+
+
+.project{
+  text-align: center;
+  background-image: url("../images/portfolio_placeholder.png");
+  height: 300px;
+  width: auto;
+  margin: 10px 5px;
+}
+
+.project h3 {
+  background-color: black;
+  width: 100%;
+  text-align:center;
+  padding: 15px 0;
+  font-size: 24px;
+}
 
