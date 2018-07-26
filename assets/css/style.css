@@ -13,11 +13,14 @@ h3 {
   font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
+.main_container {
+  min-height: calc(100vh - 95px);
+}
 
 /* Header Styles */
 header {
   background-color: #777;
-  border-bottom: 4px black  solid;
+  border-bottom: 4px whitesmoke  solid;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +29,9 @@ header {
 header h1 {
   color:whitesmoke;
   margin-left: 20px;
-  margin-bottom:0px;
+  margin-bottom:2px;
+  font-size: 45px;
+  margin-top: 20px;
 }
 
 nav {
@@ -34,7 +39,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-  margin-bottom: -20px;
+  margin-bottom: -25px;
 }
 
 nav a {
@@ -43,6 +48,10 @@ nav a {
   color: whitesmoke;
 }
   
+a:hover{
+  font-size: 18px;
+  color: chocolate;
+}
 
 /* Footer Style */
 footer {
@@ -51,17 +60,102 @@ footer {
   justify-content: center;
   align-items: flex-end;
   color: whitesmoke;
-  border-top: 5px black solid;
+  border-top: 5px whitesmoke solid;
   font-size: 12px;
-  height: 52px;
+  height: 60px;
+  margin-bottom: -10px;
 }
 
 footer p {
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 
-/* Index Page Styles */
+
+/* Middle Section Universal Styles */
+
+.about_me,
+.contact,
+.portfolio
+{
+  width: auto;
+  margin:  30px 200px;
+  background-color: #777;
+  border: 1px whitesmoke  solid;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  padding: 10px 30px;
+}
+
+.about_me h1,
+.contact h1,
+.portfolio h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-bottom: 0px;
+  font-size: 35px;
+}
+
+hr {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: -webkit-fill-available;
+}
+
+/* About Me Stryles */
+.about_me img {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.aside {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  width: auto;
+  margin: 0px 10px 0px 10px;
+}
+
+.norm {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* Contact Page Styles */
+
+form {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+input {
+  margin: 0px 0 25px 0;;
+  width: 100%;  
+  background-color: rgb(229, 229, 229);
+  height: 20px;
+}
+
+textarea {
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+  font-size: 14px;
+}
+
+.button{
+  height: 50px;
+  width: 150px;
+  margin-top: 25px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color:chocolate;
+  border: 2px whitesmoke solid;
+  color: whitesmoke;
+} 
+
+.button:focus{
+  background-color:rgb(133, 161, 133);
+}
 
 /* Portfolio Page Styles */
 
-/* Contact Page Styles */
