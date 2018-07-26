@@ -17,7 +17,9 @@ h3 {
   min-height: calc(100vh - 95px);
 }
 
+
 /* Header Styles */
+
 header {
   background-color: #777;
   border-bottom: 4px whitesmoke  solid;
@@ -53,7 +55,9 @@ a:hover{
   color: chocolate;
 }
 
+
 /* Footer Style */
+
 footer {
   display: flex;
   background-color: #777;
@@ -102,7 +106,9 @@ hr {
   width: -webkit-fill-available;
 }
 
+
 /* About Me Stryles */
+
 .about_me img {
   grid-column-start: 1;
   grid-column-end: 1;
@@ -121,6 +127,7 @@ hr {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
 
 /* Contact Page Styles */
 
@@ -158,8 +165,9 @@ textarea {
   background-color:rgb(133, 161, 133);
 }
 
-/* Portfolio Page Styles */
 
+
+/* Portfolio Page Styles */
 
 .project{
   text-align: center;
