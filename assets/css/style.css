@@ -50,7 +50,7 @@ nav a {
   color: whitesmoke;
 }
   
-a:hover{
+nav a:hover{
   font-size: 18px;
   color: chocolate;
 }
@@ -107,7 +107,7 @@ hr {
 }
 
 
-/* About Me Stryles */
+/* About Me Styles */
 
 .about_me img {
   grid-column-start: 1;
@@ -128,6 +128,22 @@ hr {
   grid-column-end: 3;
 }
 
+.icon-links {
+   grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+ a.icon {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+i:hover{
+  color: chocolate;
+}
 
 /* Contact Page Styles */
 
